@@ -5,20 +5,20 @@ public class IncrementOperator {
 	int a = 10;
 	int b = 20;
 	
-	public int testIncrementOperator() {
+	public int doIncrementOperator() {
 		a++;
 		return a;
 	}
 	
-	public int testCompoundOperators() {
+	public int doCompoundOperators() {
 		b+=1;
 		return b;
 	}
 
 	public static void main(String[] args) {
-		IncrementOperator obj = new IncrementOperator();
-		System.out.println("After Increment: "+ obj.testIncrementOperator());
-		System.out.println("After Increment: " + obj.testCompoundOperators());
+		IncrementOperator iOperator = new IncrementOperator();
+		System.out.println("After Increment: "+ iOperator.doIncrementOperator());
+		System.out.println("After Increment: " + iOperator.doCompoundOperators());
 	}
 
 }

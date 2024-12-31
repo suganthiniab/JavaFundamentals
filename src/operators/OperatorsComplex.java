@@ -14,8 +14,8 @@ public class OperatorsComplex {
 	}
 
 	public static void main(String[] args) {
-		OperatorsComplex obj = new OperatorsComplex();
-		obj.testOperatorsComplex();
+		OperatorsComplex oComplex = new OperatorsComplex();
+		oComplex.testOperatorsComplex();
 	}
 
 }

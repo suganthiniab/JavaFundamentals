@@ -16,9 +16,9 @@ public class DecrementOperator {
 	}
 
 	public static void main(String[] args) {
-		DecrementOperator obj = new DecrementOperator();
-		System.out.println("After Decrement: " + obj.testDecrementOperator());
-		System.out.println("After Decrement: " + obj.testCompoundOperator());
+		DecrementOperator dOperator = new DecrementOperator();
+		System.out.println("After Decrement: " + dOperator.testDecrementOperator());
+		System.out.println("After Decrement: " + dOperator.testCompoundOperator());
 	}
 
 }

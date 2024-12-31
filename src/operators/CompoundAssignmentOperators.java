@@ -32,8 +32,8 @@ public class CompoundAssignmentOperators {
 	}
 
 	public static void main(String[] args) {
-		CompoundAssignmentOperators obj = new CompoundAssignmentOperators();
-		obj.testCompoundAssignmentOperators();
+		CompoundAssignmentOperators cAssignmentOperators = new CompoundAssignmentOperators();
+		cAssignmentOperators.testCompoundAssignmentOperators();
 	}
 
 }

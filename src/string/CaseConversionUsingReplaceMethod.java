@@ -4,7 +4,7 @@ public class CaseConversionUsingReplaceMethod {
 	
 	String institution = "Techcanvass Academy";
 	
-	public void testCaseConversion() {
+	public void caseConversion() {
 		String institution1 = institution.replace('e', 'E');
 		System.out.println("After all e replaced with E:" + '\t' + institution1 );
 		
@@ -20,8 +20,8 @@ public class CaseConversionUsingReplaceMethod {
 	}
 
 	public static void main(String[] args) {
-		CaseConversionUsingReplaceMethod obj = new CaseConversionUsingReplaceMethod();
-		obj.testCaseConversion();
+		CaseConversionUsingReplaceMethod cConversion = new CaseConversionUsingReplaceMethod();
+		cConversion.caseConversion();
 	}
 	
 }
