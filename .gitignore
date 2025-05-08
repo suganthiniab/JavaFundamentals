@@ -1,1 +1,8 @@
 /.classpath
+/.project
+/.idea/
+/.settings/
+/JavaFundamentals.iml
+/bin/
+/src/.classpath
+/src/.project
