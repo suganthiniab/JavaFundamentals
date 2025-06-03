@@ -5,8 +5,8 @@ The main method should contain the try and catch block
 The try block should contain the program and catch block should contain the output for exception
 Output: String has no characters
  */
-/*
-public class NullPointerException {
+
+public class NullPointerExceptionExample {
 
     public static void main(String[] args) {
 
@@ -20,5 +20,5 @@ public class NullPointerException {
     }
 }
 
- */
+
 
